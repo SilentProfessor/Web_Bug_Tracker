@@ -1,0 +1,4 @@
+git init
+git add .
+git commit -m "Initial commit - Bug Tracker"
+gh repo create bug_tracker --public --source=. --push
